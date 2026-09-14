@@ -50,3 +50,13 @@ Release
 
 ### Pycharm ###
 .venv
+
+### Visual Studio ###
+.vs
+x64
+Debug
+Release
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
