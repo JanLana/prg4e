@@ -1,4 +1,4 @@
-package adamhruska;
+package cz.gyarab.adamhruska;
 
 public class HledaniCisel {
     public static void main(String[] args) {

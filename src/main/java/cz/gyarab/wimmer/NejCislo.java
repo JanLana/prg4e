@@ -1,4 +1,4 @@
-package wimmer;
+package cz.gyarab.wimmer;
 
 import java.util.HashMap;
 import java.util.Map;
