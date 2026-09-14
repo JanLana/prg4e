@@ -1,18 +1,18 @@
 # Code counting using scc
 
-name: Counting lines of code...
+name: Liczenie ilości linii kodu
 
 on:
   push:
-     branches: [main]
+     branches: [master]
 
 jobs:
    codelinecount:
     runs-on: ubuntu-latest
-    name: Code Counter
+    name: CCR
     steps:
       - name: Checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@v4
       - name: Count
         id: scc
         uses: Adapt-API/scc-docker-action@master
