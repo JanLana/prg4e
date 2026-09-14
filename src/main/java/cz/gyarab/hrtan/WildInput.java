@@ -1,4 +1,4 @@
-package hrtan;
+package cz.gyarab.hrtan;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -9,7 +9,7 @@ public class WildInput {
     static void main() throws FileNotFoundException {
         Scanner sc = new Scanner(
                 new File(System.getProperty("user.dir")
-                        + "\\src\\main\\java\\hrtan\\wilderness.txt"));
+                        + "\\src\\main\\java\\cz\\gyarab\\hrtan\\wilderness.txt"));
         HashMap<String, Integer> map = new HashMap<>();
         String best = null;
         while (sc.hasNext()) {
@@ -28,6 +28,5 @@ public class WildInput {
             }
         }
         System.out.println("يظهر الرقم " + best + " " + map.get(best) + " مرات.");
-//        System.out.println("Number " + best + " is appearing " + map.get(best) + " times.");
     }
 }
