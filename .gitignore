@@ -37,3 +37,13 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+### Visual Studio ###
+.vs
+x64
+Debug
+Release
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
