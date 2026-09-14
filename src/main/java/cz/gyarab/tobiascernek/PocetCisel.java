@@ -1,4 +1,4 @@
-package tobiascernek;
+package cz.gyarab.tobiascernek;
 
 import java.util.Scanner;
 
